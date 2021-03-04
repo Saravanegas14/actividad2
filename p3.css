@@ -1,0 +1,719 @@
+.fondo{ height: 800px;
+  border-radius: 0% 
+    top: 0px;
+     border:solid
+#000000 5px width: 100%
+  height: 600%;
+}
+
+  .bi{ 
+     position: absolute;
+    top: 1px;
+    width: 3px;
+    height: 3px;
+   
+}
+.bm{ 
+     position: absolute;
+    top: 1px;
+    width: 3px;
+    height: 3px;
+    left: 200px;
+    
+}
+.bf{ 
+     position: absolute;
+    top: 5px;
+    width: 3px;
+    height: 3px;
+     left: 400px;
+   
+}
+
+.nombre{
+ position: absolute;
+ top: 80px;
+ left:600px;
+ height: 200px;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+ transition: transform .4s;
+ opacity: 0.9;
+ text-shadow: 2px 2px #B1A6F3;
+   animation-name: ulidos;
+  animation-duration:2s;
+  animation-iteration-count: infinite; 
+  font-size: 30px;
+   
+} 
+@keyframes ulidos{
+ 33%{color: #03010D;  } 
+ 66%{color:#5DADE2 ;  }
+ 100%{color:#F692CD ;  }
+
+  
+}
+
+.linea{
+  position: absolute;
+top: 100px;
+  left:30px;
+  height: 445px;
+  background-image: url(fotos/l8.png);
+   width: 1255px;
+   background-size: cover;
+  transition: 1s;
+}
+.ti{
+ position: absolute;
+ top: 900px;
+ left:600px;
+ height: 200px;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+ text-shadow: 2px 2px #17202A;
+   animation-name: ulidos;
+  animation-duration:2s;
+  animation-iteration-count: infinite; 
+  font-size: 30px;
+   
+} 
+@keyframes ulidos{
+ 33%{color:#000000 ;  } 
+ 66%{color:#2F92B4 ;  }
+ 99%{color:#37B4DF ;  }
+
+}
+
+.to{
+ position: absolute;
+ top: 1100px;
+ left:200px;
+ height: 200px;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+.di{
+position: absolute;
+ top: 1100px;
+ left:500px;
+ height: 200px;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+}
+
+.li{
+ position: absolute;
+top: 1110px;
+  left:850px;
+   background-size:cover ;
+  transition: 1s;
+border-radius: 60%;
+ transition: transform .4s;
+ width: 50px;
+ height: 50px;
+}
+.li1{ 
+display: none;
+position: absolute;
+top:30px;
+  left:100px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  border-color:#FF00CC;
+  width: 300px;
+}
+ .fu{
+ position: absolute;
+top: 1200px;
+  left:855px;
+   background-size:cover ;
+  transition: 1s;
+border-radius: 60%;
+ transition: transform .4s;
+ 
+}
+.fu1{ 
+display: none;
+position: absolute;
+top:5px;
+  left:100px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  border-color:#CC00FF;
+  width: 300px;
+
+}
+
+.mai{
+ position: absolute;
+top: 1280px;
+  left:855px;
+   background-size:cover ;
+  transition: 1s;
+border-radius: 60%;
+ transition: transform .4s;
+}
+.mai1{ 
+display: none;
+position: absolute;
+top:20px;
+  left:150px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  border-color:#6633FF;
+  width: 300px;
+
+}
+.sa{
+ position: absolute;
+top: 1380px;
+  left:895px;
+   background-size:cover ;
+  transition: 1s;
+border-radius: 60%;
+ transition: transform .4s;
+}
+.sa1{ 
+display: none;
+position: absolute;
+top:20px;
+  left:120px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  border-color:#92F698;
+  width: 300px;
+}
+.tl{
+ position: absolute;
+ top: 1550px;
+ left:500px;
+ height: 200px;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+ text-shadow: 2px 2px #17202A;
+   animation-name: ulidos;
+  animation-duration:2s;
+  animation-iteration-count: infinite; 
+  font-size: 30px;
+   
+} 
+@keyframes ulidos{
+ 33%{color:#000000 ;  } 
+ 66%{color:#CC0099 ;  }
+ 99%{color:#F06292  ;  }
+
+}
+.ls{
+ position: absolute;
+ top: 1699px;
+ left:50px;
+ height: 200px;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+}
+
+.l1{
+ position: absolute;
+ top: 1876px;
+ left:50px;
+ height: 200px;
+ color: #66BB6A ;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+ .l1m{ 
+display: none;
+position: absolute;
+top:35px;
+  left:130px;
+  color:#000000 ;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  border-color:#66BB6A;
+  width: 400px;
+
+}
+
+.l2{
+ position: absolute;
+ top: 2000px;
+ left:50px;
+ height: 200px;
+ color: #FF7043;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+ .l2m{ 
+display: none;
+position: absolute;
+top:60px;
+  left:120px;
+color: #000000;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  border-color:#FF7043;
+  width: 400px;
+
+}
+
+.l4{
+ position: absolute;
+ top: 1900px;
+ left:600px;
+ height: 200px;
+ color: #29B6F6;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+ .l4m{ 
+display: none;
+position: absolute;
+top:100px;
+  left:300px;
+color: #000000;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  border-color:#29B6F6;
+  width: 400px;
+
+
+}
+.l5{
+ position: absolute;
+ top: 2000px;
+ left:600px;
+ height: 200px;
+color:#F48FB1  ;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+ .l5m{ 
+display: none;
+position: absolute;
+top:100px;
+  left:200px;
+  color: #000000;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  border-color:#F48FB1;
+  width: 400px;
+
+}
+.l6{
+ position: absolute;
+ top: 1865px;
+ left:1000px;
+ height: 200px;
+ color: #BA68C8 ;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+ .l6m{ 
+display: none;
+position: absolute;
+top:150px;
+  left:-90px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  color: #000000;
+  border-color:#BA68C8 ;
+  width: 400px;
+
+}
+
+.t2{
+ position: absolute;
+ top: 2500px;
+ left:500px;
+ height: 200px;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+ text-shadow: 2px 2px #17202A;
+   animation-name: ulidos;
+  animation-duration:2s;
+  animation-iteration-count: infinite; 
+  font-size: 30px;
+   
+} 
+@keyframes ulidos{
+ 33%{color:#000000 ;  } 
+ 66%{color:#CC33FF ;  }
+ 99%{color:#CC0099  ;  }
+
+}
+.f{
+ position: absolute;
+ top: 2665px;
+ left:400px;
+ height: 200px;
+ color:#0066FF;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+ .f1{ 
+display: none;
+position: absolute;
+top:100px;
+  left:90px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  color: #000000;
+  border-color:#0066FF ;
+  width: 400px;
+
+}
+.t3{
+ position: absolute;
+ top: 2650px;
+ left:100px;
+ height: 200px;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ }
+.es{
+position: absolute;
+ top: 2665px;
+ left:300px;
+
+}
+.v{
+ position: absolute;
+ top: 2999px;
+ left:400px;
+ height: 200px;
+ color: #CC0099 ;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+ .v1{ 
+display: none;
+position: absolute;
+top:99px;
+  left:90px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  color: #000000;
+  border-color:#CC0099 ;
+  width: 400px;
+}
+  .t4{
+ position: absolute;
+ top: 3100px;
+ left:200px;
+ height: 200px;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+.s1m{ 
+display: none;
+position: absolute;
+top:55px;
+  left:90px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  color: #000000;
+  border-color:#5DADE2  ;
+  width: 400px;
+}
+  .s1{
+ position: absolute;
+ top: 3200px;
+ left:100px;
+ height: 200px;
+ color: #5DADE2 ;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+
+.s2m{ 
+display: none;
+position: absolute;
+top:50px;
+  left:200px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  color: #000000;
+  border-color:#A569BD  ;
+  width: 400px;
+}
+  .s2{
+ position: absolute;
+ top: 3200px;
+ left:700px;
+ height: 200px;
+ color: #A569BD ;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+.s3m{ 
+display: none;
+position: absolute;
+top:50px;
+  left:100px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  color: #000000;
+  border-color:#F4D03F;
+  width: 400px;
+}
+  .s3{
+ position: absolute;
+ top: 3400px;
+ left:100px;
+ height: 200px;
+ color: #F4D03F;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+}
+
+.s4m{ 
+display: none;
+position: absolute;
+top:50px;
+  left:200px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  color: #000000;
+  border-color:#1ABC9C ;
+  width: 400px;
+}
+  .s4{
+ position: absolute;
+ top: 3400px;
+ left:700px;
+ height: 200px;
+ color: #1ABC9C;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+
+} 
+.s5m{ 
+display: none;
+position: absolute;
+top:50px;
+  left:200px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  color: #000000;
+  border-color:#DC7633  ;
+  width: 400px;
+}
+  .s5{
+ position: absolute;
+ top: 3600px;
+ left:400px;
+ height: 200px;
+ color: #DC7633 ;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+}
+.c{
+ position: absolute;
+ top: 2800px;
+ left:200px;
+ height: 200px;
+ color: #EC407A;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+}
+ .c1{
+ display: none;
+position: absolute;
+top:50px;
+  left:300px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  color: #000000;
+  border-color:#EC407A  ;
+  width: 500px;
+}
+.si{
+ position: absolute;
+ top: 3900px;
+ left:200px;
+ height: 200px;
+ color: #9575CD;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+}
+ .si1{
+ display: none;
+position: absolute;
+top:50px;
+  left:300px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  color: #000000;
+  border-color:#9575CD  ;
+  width: 400px;
+}
+.ve{
+ position: absolute;
+ top: 3990px;
+ left:200px;
+ height: 200px;
+ color: #4DD0E1 ;
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ transition: transform .4s;
+ opacity: 0.9;
+}
+ .ve1{
+ display: none;
+position: absolute;
+top:50px;
+  left:300px;
+  font-family: Copperplate, Papyrus, fantasy, monospace;
+   background-size:cover ;
+  transition: 1s;
+  border-style: dotted;
+  color: #000000;
+  border-color:#4DD0E1   ;
+  width: 600px;
+  height: 400px
+}
+.sat{
+position: absolute;
+top:2950px;
+  left:30px;
+ 
+}
+.li:active .li1{
+   display: block;
+   }
+
+   .fu:active .fu1{
+   display: block;
+   }
+     .sa:active .sa1{
+   display: block;
+   }
+
+   .mai:active .mai1{
+   display: block;
+   }
+   .v:hover .v1{
+   display: block;
+   }
+
+.l1:hover .l1m{
+   display: block;
+   }
+
+.f:hover .f1{
+   display: block;
+   }
+   
+   .l2:hover .l2m{
+   display: block;
+   }
+
+   .l4:hover .l4m{
+   display: block;
+   }
+
+   .l5:hover .l5m{
+   display: block;
+   }
+
+   .l6:hover .l6m{
+   display: block;
+   }
+
+   .s1:hover .s1m{
+   display: block;
+   }
+
+.s2:hover .s2m{
+   display: block;
+   }
+   .s3:hover .s3m{
+   display: block;
+   }
+   .s4:hover .s4m{
+   display: block;
+   }
+
+    .s5:hover .s5m{
+   display: block;
+   }
+    .c:hover .c1{
+   display: block;
+   }
+     .si:hover .si1{
+   display: block;
+   }
+   .ve:hover .ve1{
+   display: block;
+   }
+   
